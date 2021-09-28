@@ -1,2 +1,2 @@
 <?php echo 'start project';
-      echo 'new branch created';
+      echo 'new branch';
