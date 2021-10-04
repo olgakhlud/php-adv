@@ -1,0 +1,16 @@
+{
+    "name": "okhlud/php-adv",
+    "description": "php-adv project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "olga",
+            "email": "khlud.olga@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    }
+}
