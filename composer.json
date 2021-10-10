@@ -10,5 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "okhlud/url_parser": "dev-master"
+    }
 }

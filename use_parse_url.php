@@ -2,9 +2,8 @@
 
 require "vendor/autoload.php";
 
-$guzzle = new \GuzzleHttp\Client();
-$content = $guzzle->request('get', 'https://onlineitea.com.ua/course/php-advanced/');
-
 $url = 'https://onlineitea.com.ua/course/php-advanced/';
-echo 'Get host from ' . $url . PHP_EOL;
-$parser = ;
+echo 'Get host from ' . $url;
+
+$parser = new \Parser\Parser();
+echo "Host name is " . $parser->get_host($url);
