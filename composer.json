@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "okhlud/url_parser": "dev-master"
+    "autoload": {
+        "psr-4": {
+            "Driver\\": "car"
+        }
     }
 }
